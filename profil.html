@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Mahasiswa | E-Portofolio PPG UNY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="CSS/profil.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-left">
+          <img src="logo.png" alt="Logo Universitas" class="univ-logo-img" />
+          <span class="brand-name"> E-Portofolio <span class="highlight">PPG.</span> </span>
+        </a>
+
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <nav class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-item">Beranda</a>
+
+          <div class="dropdown">
+            <button class="dropbtn nav-item active">
+              E-Portofolio 1
+              <i class="fa-solid fa-chevron-down text-accent"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="profil.html" class="active-sub"><i class="fa-solid fa-user-tie"></i> Profil Mahasiswa</a>
+              <a href="artefak.html"><i class="fa-solid fa-cube"></i> Artefak Produk</a>
+              <a href="penilaian.html"><i class="fa-solid fa-id-card-clip"></i> Penilaian GP</a>
+              <a href="modelguru.html"><i class="fa-solid fa-chalkboard-user"></i> Model Guru</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn nav-item">
+              E-Portofolio 2
+              <i class="fa-solid fa-chevron-down text-accent"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="refleksi.html"><i class="fa-solid fa-brain"></i> Refleksi Akhir</a>
+              <a href="filosofi.html"><i class="fa-solid fa-graduation-cap"></i> Filosofi Mengajar</a>
+            </div>
+          </div>
+
+          <a href="dokumentasi.html" class="nav-item">Dokumentasi</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" style="padding-top: 140px; min-height: 90vh">
+        <div class="container hero-content">
+          <div class="hero-text reveal">
+            <div class="tagline"><i class="fa-solid fa-bolt"></i> Dari Kota Walet untuk Indonesia</div>
+            <h1>
+              Sella <br />
+              <span class="text-glow text-accent">Salsadila Agustin, S.Pd.</span>
+            </h1>
+            <h3 style="font-family: &quot;Poppins&quot;, sans-serif; font-weight: 500; font-size: 1.2rem; color: var(--text-muted); margin-bottom: 20px">Mahasiswi PPG Prajabatan PJOK UNNES 2026</h3>
+            <p>
+              Lahir dan tumbuh di Kabupaten Kebumen, daerah yang dikenal sebagai <strong>"Kota Walet"</strong>—simbol keuletan dan daya tahan tinggi. Karakter itu menanamkan disiplin dalam diri saya, serupa ketangkasan burung walet yang
+              mampu terbang jauh dan bertahan dalam berbagai kondisi. Kini, saya berdedikasi menciptakan ruang gerak inklusif bagi generasi masa depan melalui integrasi <i>sport science</i> dan pedagogi modern.
+            </p>
+            <div class="hero-buttons">
+              <a href="#pendidikan" class="btn-primary"> Jejak Perjalanan <i class="fa-solid fa-arrow-down"></i> </a>
+            </div>
+          </div>
+
+          <div class="hero-image reveal">
+            <div class="img-box profile-glow-box">
+              <img src="profile.jpeg" alt="Foto Profil Sella Salsadila Agustin" />
+              <div class="badge-float bf-1"><i class="fa-solid fa-medal"></i> Sportivitas</div>
+              <div class="badge-float bf-2"><i class="fa-solid fa-heart-pulse"></i> Gaya Hidup Sehat</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ✨ SECTION BARU: NILAI & FILOSOFI -->
+      <section id="nilai" class="section-padding" style="padding-top: 60px; padding-bottom: 80px">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2>Keyakinan <span class="text-accent">yang Menggerakkan</span></h2>
+            <p>"Tubuh yang sehat adalah rumah bagi jiwa yang kuat." Prinsip inilah yang menjadi fondasi setiap langkah saya sebagai calon pendidik PJOK.</p>
+          </div>
+
+          <div class="nilai-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px">
+            <!-- Nilai 1 -->
+            <div class="nilai-card reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 30px; text-align: center; transition: all 0.3s ease">
+              <div style="font-size: 2.8rem; color: var(--accent); margin-bottom: 16px">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3 style="margin-bottom: 12px">Pembentukan Karakter</h3>
+              <p style="color: var(--text-muted); line-height: 1.7">
+                Saya memandang lapangan sebagai ruang terbaik untuk menanamkan sportivitas, kerjasama tim, dan kerja keras. Setiap keringat adalah pelajaran tentang integritas dan saling menghargai.
+              </p>
+            </div>
+
+            <!-- Nilai 2 -->
+            <div class="nilai-card reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 30px; text-align: center; transition: all 0.3s ease">
+              <div style="font-size: 2.8rem; color: var(--accent); margin-bottom: 16px">
+                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+              </div>
+              <h3 style="margin-bottom: 12px">Bangkit dari Kegagalan</h3>
+              <p style="color: var(--text-muted); line-height: 1.7">
+                Seperti filosofi burung walet yang terbang melawan angin, saya percaya pendidikan olahraga sejati adalah tentang mengajarkan siswa cara bangkit setelah terjatuh, dan menjadikan setiap kekalahan sebagai guru terbaik.
+              </p>
+            </div>
+
+            <!-- Nilai 3 -->
+            <div class="nilai-card reveal" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 30px; text-align: center; transition: all 0.3s ease">
+              <div style="font-size: 2.8rem; color: var(--accent); margin-bottom: 16px">
+                <i class="fa-solid fa-face-laugh-beam"></i>
+              </div>
+              <h3 style="margin-bottom: 12px">Ruang Gerak Menyenangkan</h3>
+              <p style="color: var(--text-muted); line-height: 1.7">
+                Saya berkomitmen mengasah metode pengajaran inovatif agar ruang olahraga menjadi tempat yang dinanti siswa—tempat mereka bebas berproses, bergerak, dan berkembang, baik secara fisik maupun mental.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KUTIPAN PEDOMAN HIDUP -->
+      <section class="section-padding" style="padding-top: 20px; padding-bottom: 60px">
+        <div class="container reveal">
+          <div class="quote-glass-card">
+            <i class="fa-solid fa-quote-right quote-mark"></i>
+            <p>
+              "Olahraga tidak hanya membentuk karakter, ia
+              <span class="text-accent">mengungkapkannya</span>."
+            </p>
+            <div class="quote-author">
+              <div class="author-line"></div>
+              <span>Heywood Broun</span>
+              <small style="display: block; color: var(--text-muted); margin-top: 4px">Jurnalis & Kritikus Olahraga</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pendidikan" class="section-padding">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2>Jejak <span class="text-accent">Akademik</span></h2>
+            <p>Transformasi keilmuan dan praktik lapangan menjadi pendidik PJOK profesional yang adaptif dan inovatif.</p>
+          </div>
+
+          <div class="timeline-wrapper">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item left reveal">
+              <div class="timeline-content">
+                <div class="timeline-year">2026 - Sekarang</div>
+                <h3>Universitas Negeri Semarang</h3>
+                <h4>PPG Prajabatan PJOK</h4>
+                <p>
+                  Mengembangkan modul ajar SMK menggunakan model
+                  <i>Project-Based Learning</i> (PjBL) dan mengintegrasikan prinsip <i>Growth Mindset</i> untuk menciptakan ekosistem pembelajaran digital yang bermakna.
+                </p>
+              </div>
+              <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item right reveal">
+              <div class="timeline-content">
+                <div class="timeline-year">2019 - 2024</div>
+                <h3>Universitas Negeri Semarang</h3>
+                <h4>S1 Pendidikan Kepelatihan Olahraga</h4>
+                <p>Mendalami teori dan praktik kepelatihan olahraga, fisiologi, biomekanika, serta merancang program latihan berbasis periodisasi untuk berbagai cabang olahraga.</p>
+              </div>
+              <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item left reveal">
+              <div class="timeline-content">
+                <div class="timeline-year">2018 - 2021</div>
+                <h3>SMA Negeri 2 Kebumen</h3>
+                <h4>Ilmu Pengetahuan Alam (IPA)</h4>
+                <p>Mengikuti program peminatan IPA dengan fokus pada biologi dan fisika, membangun pola pikir ilmiah yang mendukung pemahaman tentang tubuh manusia dan gerak.</p>
+              </div>
+              <div class="timeline-dot"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2>Pilar <span class="text-accent">Kompetensi</span></h2>
+            <p>Kapabilitas yang saya bangun dari perpaduan disiplin atlet, ilmu kepelatihan, dan semangat mendidik—untuk menghadirkan PJOK yang membumi dan membentuk karakter.</p>
+          </div>
+
+          <div class="artefak-grid">
+            <!-- Pilar 1: Inovasi Pembelajaran -->
+            <div class="artefak-card highlight-card reveal">
+              <div class="card-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h3>Inovasi Pembelajaran Aktif</h3>
+              <p>Merancang modifikasi permainan dan skenario latihan yang menyesuaikan keterbatasan sarana, agar setiap siswa—tanpa terkecuali—bisa bergerak gembira dan meraih capaian bermakna.</p>
+            </div>
+
+            <!-- Pilar 2: Sport Science & Kebugaran -->
+            <div class="artefak-card reveal">
+              <div class="card-icon">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <h3>Sport Science & Kebugaran</h3>
+              <p>Bekal ilmu fisiologi, biomekanika, dan periodisasi latihan dari Pendidikan Kepelatihan Olahraga untuk menyusun program kebugaran terukur serta penanganan cedera dasar di lapangan (P3K).</p>
+            </div>
+
+            <!-- Pilar 3: Pembinaan Mental Juara -->
+            <div class="artefak-card reveal">
+              <div class="card-icon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <h3>Pembinaan Mental Juara</h3>
+              <p>Berpengalaman mengelola turnamen dan event olahraga antar kelas, sekaligus mengajarkan sportivitas, kerja sama tim, dan terutama cara bangkit dari kekalahan sebagai bekal kehidupan.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2>Sisi Lain <span class="text-accent">Kehidupan</span></h2>
+            <p>Rutinitas penyeimbang energi dan kesehatan mental di luar ruang kelas.</p>
+          </div>
+
+          <div class="artefak-grid-hobi">
+            <!-- Kartu Futsal -->
+            <div class="hobby-card reveal">
+              <img src="IMG/futsal.jpg" alt="Futsal" />
+              <div class="hobby-overlay">
+                <i class="fa-solid fa-futbol"></i>
+                <h3>Futsal</h3>
+                <p>Melepas penat dan menjaga kebugaran lewat pertandingan santai bersama teman.</p>
+              </div>
+            </div>
+
+            <!-- Kartu Travelling -->
+            <div class="hobby-card reveal" style="transition-delay: 0.1s">
+              <img src="IMG/travelling.jpg" alt="Travelling" />
+              <div class="hobby-overlay">
+                <i class="fa-solid fa-plane"></i>
+                <h3>Travelling</h3>
+                <p>Menjelajahi tempat baru, menyegarkan pikiran, dan memperluas sudut pandang.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <img src="logo.png" alt="UNY" class="univ-logo-img" />
+            <span>PPG <span class="text-accent">UNY</span></span>
+          </div>
+          <p class="brand-desc">Portal resmi rekaman jejak akademik dan profesional mahasiswa PPG Prajabatan rumpun Pendidikan Jasmani, Olahraga, dan Kesehatan.</p>
+          <div class="social-box">
+            <a href="https://www.instagram.com/sellasalsadilaa/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:sellagus8807@gmail.com" class="social-link"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <h3>E-Portofolio 1</h3>
+          <ul>
+            <li>
+              <a href="profil.html"><i class="fa-solid fa-chevron-right"></i> Profil Saya</a>
+            </li>
+            <li>
+              <a href="artefak.html"><i class="fa-solid fa-chevron-right"></i> Karya Artefak</a>
+            </li>
+            <li>
+              <a href="penilaian.html"><i class="fa-solid fa-chevron-right"></i> Penilaian Pamong</a>
+            </li>
+            <li>
+              <a href="model.html"><i class="fa-solid fa-chevron-right"></i> Desain Model</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h3>E-Portofolio 2</h3>
+          <ul>
+            <li>
+              <a href="refleksi.html"><i class="fa-solid fa-chevron-right"></i> Refleksi PPL</a>
+            </li>
+            <li>
+              <a href="filosofi.html"><i class="fa-solid fa-chevron-right"></i> Filosofi Mengajar</a>
+            </li>
+            <li>
+              <a href="dokumentasi.html"><i class="fa-solid fa-chevron-right"></i> Galeri Foto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>Hubungi Pengembang</h3>
+          <p>Kirim pesan cepat atau tanggapan terkait sistem portofolio ini.</p>
+          <div class="input-group">
+            <input type="email" placeholder="Email Anda..." />
+            <button type="button">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 SELLA SALSADILA AGUSTIN. Seluruh Hak Cipta Dilindungi.</p>
+      </div>
+    </footer>
+
+    <script>
+      // 1. Scroll Effect untuk Navbar
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 40) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+
+      // 2. Hamburger Menu Mobile
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+
+      // 3. Dropdown Mobile Toggle Logic
+      const dropbtns = document.querySelectorAll(".dropbtn");
+      dropbtns.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          if (window.innerWidth <= 992) {
+            e.preventDefault();
+            btn.nextElementSibling.classList.toggle("show");
+          }
+        });
+      });
+
+      // 4. Smooth Scroll Reveal Animation
+      function scrollReveal() {
+        const reveals = document.querySelectorAll(".reveal");
+        reveals.forEach((element) => {
+          const windowHeight = window.innerHeight;
+          const elementTop = element.getBoundingClientRect().top;
+          const elementVisible = 100;
+          if (elementTop < windowHeight - elementVisible) {
+            element.classList.add("active");
+          }
+        });
+      }
+      window.addEventListener("scroll", scrollReveal);
+      scrollReveal();
+    </script>
+  </body>
+</html>

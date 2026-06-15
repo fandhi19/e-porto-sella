@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penilaian GP | E-Portofolio PPG UNY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="CSS/penilaian.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-left">
+          <img src="logo.png" alt="Logo Universitas" class="univ-logo-img" />
+          <span class="brand-name"> E-Portofolio <span class="highlight">PPG.</span> </span>
+        </a>
+
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <nav class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-item">Beranda</a>
+
+          <div class="dropdown">
+            <button class="dropbtn nav-item active">
+              E-Portofolio 1
+              <i class="fa-solid fa-chevron-down text-accent"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="profil.html"><i class="fa-solid fa-user-tie"></i> Profil Mahasiswa</a>
+              <a href="artefak.html"><i class="fa-solid fa-cube"></i> Artefak Produk</a>
+              <a href="penilaian.html" class="active-sub"><i class="fa-solid fa-id-card-clip"></i> Penilaian GP</a>
+              <a href="modelguru.html"><i class="fa-solid fa-chalkboard-user"></i> Model Guru</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn nav-item">
+              E-Portofolio 2
+              <i class="fa-solid fa-chevron-down text-accent"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="refleksi.html"><i class="fa-solid fa-brain"></i> Refleksi Akhir</a>
+              <a href="filosofi.html"><i class="fa-solid fa-graduation-cap"></i> Filosofi Mengajar</a>
+            </div>
+          </div>
+
+          <a href="dokumentasi.html" class="nav-item">Dokumentasi</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="penilaian-main">
+      <section class="hero-penilaian section-padding">
+        <div class="container text-center relative-z">
+          <div class="tagline reveal"><i class="fa-solid fa-clipboard-check text-accent"></i> Evaluasi PPL Terbimbing</div>
+          <h1 class="hero-title reveal" style="transition-delay: 0.1s">Penilaian <span class="text-glow text-accent">Guru Pamong</span></h1>
+          <p class="hero-desc mx-auto reveal" style="transition-delay: 0.2s">
+            Dokumentasi autentik hasil penilaian dari Guru Pamong yang mencakup evaluasi rancangan perangkat pembelajaran (Lampiran 7) dan observasi praktik mengajar di lapangan selama 3 siklus (Lampiran 8).
+          </p>
+        </div>
+      </section>
+
+      <section class="showcase-section section-padding" style="padding-top: 0">
+        <div class="container">
+          <div class="showcase-grid reveal">
+            <div class="info-panel glassmorphism">
+              <div class="panel-header">
+                <div class="badge-accent">Lampiran 7</div>
+                <h3>Penyusunan Perangkat Pembelajaran</h3>
+                <div class="title-line"></div>
+              </div>
+              <p class="panel-desc">
+                Instrumen ini merupakan lembar penilaian dari
+                <strong>Guru Pamong</strong> yang difokuskan pada kualitas, kelengkapan, dan kesesuaian rancangan Modul Ajar serta perangkat pendukung (LKPD, Media, Rubrik) sebelum diimplementasikan di dalam kelas.
+              </p>
+
+              <div class="highlight-box">
+                <i class="fa-solid fa-check-double text-accent"></i>
+                <div>
+                  <h4>Fokus Penilaian:</h4>
+                  <p>Kesesuaian capaian pembelajaran, integrasi Profil Pelajar Pancasila, dan diferensiasi tugas gerak siswa.</p>
+                </div>
+              </div>
+
+              <div class="action-box">
+                <a href="Dokumen/Lampiran 7..pdf" download="Lampiran7.pdf" class="btn-outline w-100"> <i class="fa-solid fa-download"></i> Unduh Lampiran 7 </a>
+              </div>
+            </div>
+
+            <div class="pdf-panel">
+              <div class="pdf-header">
+                <div class="doc-badge"><i class="fa-solid fa-file-pdf"></i> Pratinjau Dokumen Lampiran 7</div>
+              </div>
+              <div class="pdf-wrapper glass-border">
+                <iframe src="Dokumen/Lampiran 7..pdf" title="Lampiran 7" loading="lazy"></iframe>
+              </div>
+              <a href="Dokumen/Lampiran 7..pdf" target="_blank" class="btn-primary w-100 mt-3"> <i class="fa-solid fa-up-right-from-square"></i> Buka Layar Penuh </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase-section section-padding">
+        <div class="container">
+          <div class="showcase-grid reverse reveal">
+            <div class="pdf-panel">
+              <div class="pdf-header">
+                <div class="doc-badge"><i class="fa-solid fa-file-pdf"></i> Pratinjau Lampiran 8</div>
+              </div>
+
+              <div id="siklus-1" class="pdf-content-cycle active">
+                <div class="pdf-wrapper glass-border">
+                  <iframe src="Dokumen/Lampiran 8 Siklus 1.pdf" title="Lampiran 8 Siklus 1" loading="lazy"></iframe>
+                </div>
+                <a href="Dokumen/Lampiran 8 Siklus 1.pdf" target="_blank" class="btn-primary w-100 mt-3"> <i class="fa-solid fa-up-right-from-square"></i> Buka Layar Penuh (Siklus 1) </a>
+              </div>
+
+              <div id="siklus-2" class="pdf-content-cycle">
+                <div class="pdf-wrapper glass-border">
+                  <iframe src="Dokumen/Lampiran 8 Siklus 2.pdf" title="Lampiran 8 Siklus 2" loading="lazy"></iframe>
+                </div>
+                <a href="Dokumen/Lampiran 8 Siklus 2.pdf" target="_blank" class="btn-primary w-100 mt-3"> <i class="fa-solid fa-up-right-from-square"></i> Buka Layar Penuh (Siklus 2) </a>
+              </div>
+
+              <div id="siklus-3" class="pdf-content-cycle">
+                <div class="pdf-wrapper glass-border">
+                  <iframe src="Dokumen/Lampiran 8 Siklus 3.pdf" title="Lampiran 8 Siklus 3" loading="lazy"></iframe>
+                </div>
+                <a href="Dokumen/Lampiran 8 Siklus 3.pdf" target="_blank" class="btn-primary w-100 mt-3"> <i class="fa-solid fa-up-right-from-square"></i> Buka Layar Penuh (Siklus 3) </a>
+              </div>
+            </div>
+
+            <div class="info-panel glassmorphism">
+              <div class="panel-header">
+                <div class="badge-accent">Lampiran 8</div>
+                <h3>Praktik Mengajar (3 Siklus)</h3>
+                <div class="title-line"></div>
+              </div>
+              <p class="panel-desc">
+                Dokumentasi penilaian dari <strong>Guru Pamong</strong> terhadap performa pengajaran nyata di lapangan. Evaluasi ini mencakup keterampilan pedagogi, penguasaan materi, manajemen kelas, hingga interaksi dengan peserta didik.
+              </p>
+
+              <div class="cycle-tabs-wrapper">
+                <h4 class="tab-instruction">Pilih Siklus untuk melihat penilaian:</h4>
+                <div class="cycle-tabs">
+                  <button class="cycle-btn active" onclick="switchCycle(event, 'siklus-1')"><i class="fa-solid fa-1"></i> Siklus 1</button>
+                  <button class="cycle-btn" onclick="switchCycle(event, 'siklus-2')"><i class="fa-solid fa-2"></i> Siklus 2</button>
+                  <button class="cycle-btn" onclick="switchCycle(event, 'siklus-3')"><i class="fa-solid fa-3"></i> Siklus 3</button>
+                </div>
+              </div>
+
+              <div class="action-box">
+                <a href="Dokumen/Lampiran 8 Full.pdf" download="Lampiran8_PraktikMengajar.pdf" class="btn-outline w-100"> <i class="fa-solid fa-download"></i> Unduh Semua Siklus </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <img src="logo.png" alt="UNY" class="univ-logo-img" />
+            <span>PPG <span class="text-accent">UNY</span></span>
+          </div>
+          <p class="brand-desc">Portal resmi rekaman jejak akademik dan profesional mahasiswa PPG Prajabatan rumpun Pendidikan Jasmani, Olahraga, dan Kesehatan.</p>
+          <div class="social-box">
+            <a href="https://www.instagram.com/sellasalsadilaa/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:sellagus8807@gmail.com" class="social-link"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <h3>E-Portofolio 1</h3>
+          <ul>
+            <li>
+              <a href="profil.html"><i class="fa-solid fa-chevron-right"></i> Profil Saya</a>
+            </li>
+            <li>
+              <a href="artefak.html"><i class="fa-solid fa-chevron-right"></i> Karya Artefak</a>
+            </li>
+            <li>
+              <a href="penilaian.html"><i class="fa-solid fa-chevron-right"></i> Penilaian Pamong</a>
+            </li>
+            <li>
+              <a href="model.html"><i class="fa-solid fa-chevron-right"></i> Desain Model</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h3>E-Portofolio 2</h3>
+          <ul>
+            <li>
+              <a href="refleksi.html"><i class="fa-solid fa-chevron-right"></i> Refleksi PPL</a>
+            </li>
+            <li>
+              <a href="filosofi.html"><i class="fa-solid fa-chevron-right"></i> Filosofi Mengajar</a>
+            </li>
+            <li>
+              <a href="dokumentasi.html"><i class="fa-solid fa-chevron-right"></i> Galeri Foto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>Hubungi Pengembang</h3>
+          <p>Kirim pesan cepat atau tanggapan terkait sistem portofolio ini.</p>
+          <div class="input-group">
+            <input type="email" placeholder="Email Anda..." />
+            <button type="button">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 SELLA SALSADILA AGUSTIN. Seluruh Hak Cipta Dilindungi.</p>
+      </div>
+    </footer>
+
+    <script>
+      // 1. Logika Tab Interaktif untuk Siklus Lampiran 8
+      function switchCycle(evt, cycleName) {
+        var i, tabcontent, tablinks;
+        // Sembunyikan semua iframe pdf cycle
+        tabcontent = document.getElementsByClassName("pdf-content-cycle");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+          tabcontent[i].classList.remove("active");
+        }
+        // Hapus status aktif dari semua tombol
+        tablinks = document.getElementsByClassName("cycle-btn");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active");
+        }
+        // Tampilkan tab target
+        document.getElementById(cycleName).style.display = "block";
+        setTimeout(() => document.getElementById(cycleName).classList.add("active"), 10);
+        evt.currentTarget.classList.add("active");
+      }
+      // Pastikan siklus 1 tampil saat dimuat
+      document.getElementById("siklus-1").style.display = "block";
+
+      // 2. Scroll Effect Navbar
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 40) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+
+      // 3. Hamburger Menu Responsif
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+
+      // 4. Smooth Entrance Scroll Reveal
+      function scrollReveal() {
+        const reveals = document.querySelectorAll(".reveal");
+        reveals.forEach((element) => {
+          const windowHeight = window.innerHeight;
+          const elementTop = element.getBoundingClientRect().top;
+          const elementVisible = 100;
+          if (elementTop < windowHeight - elementVisible) {
+            element.classList.add("active");
+          }
+        });
+      }
+      window.addEventListener("scroll", scrollReveal);
+      scrollReveal();
+    </script>
+  </body>
+</html>
